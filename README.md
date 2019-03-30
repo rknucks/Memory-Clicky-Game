@@ -1,4 +1,8 @@
-#Memory Clicky Game
+### Memory Clicky Game  
+#with React
+
+Check out the images, and click to score ... but don't click the same image twice, or it's "Game Over!"
+Try to click all 12 without any duplication!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
