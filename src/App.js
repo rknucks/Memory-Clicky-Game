@@ -35,7 +35,9 @@ class App extends Component {
           this.setState({score : this.state.score + 1}, function(){
             console.log(this.state.score);
           });
+
           this.state.cards.sort(() => Math.random() - 0.5)
+          // console.log("Shuffled Array of cards:", this.state.cards)
           return true; 
         } else {
           this.gameOver();
